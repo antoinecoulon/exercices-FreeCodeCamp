@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="survey-form-project.css" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label id="name-label">Name <input type="text" id="name" placeholder="Enter your name" required /></label>
+      <label id="email-label">Email <input type="email" id="email" placeholder="Enter your Email" required /></label>
+      <label id="number-label">Age (optional) <input type="number" id="number" placeholder="Age" pattern="[0-9]" min="13" max="120" /></label>
+      <label>Which option best describes your current role?
+        <select id="dropdown">
+          <option value="">Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Full time job</option>
+        </select>
+        </label>
+        Would you recommend freeCodeCamp to a friend?
+        <label class="check">Definitely 
+          <input type="radio" name="radio" value="definitely" class="inline" checked/>
+        </label> 
+        <label class="check">Not sure 
+          <input type="radio" name="radio" value="notsure" class="inline"/> 
+        </label>
+        What would you like to see improved? (Check all that apply)
+        <label class="check">
+          <input type="checkbox" value="a" class="inline"/> Front-End Projects
+        </label>
+        <label class="check">
+          <input type="checkbox" value="b" class="inline"/> Back-end Projects
+        </label>
+        <label class="check">
+          <input type="checkbox" value="c" class="inline"/> Data Visualization
+        </label>
+        <label class="check">
+          <input type="checkbox" value="d" class="inline"/> Other Stuffs
+        </label>
+        <label class="check">
+          <input type="checkbox" value="e" class="inline"/> Open Source Community
+        </label>
+        <label class="check">
+          <input type="checkbox" value="f" class="inline"/> Gitter help rooms
+        </label>
+        <label>Any comments or suggestions?
+          <textarea placeholder="Enter your comment here..."></textarea>
+        </label>
+        <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
+
