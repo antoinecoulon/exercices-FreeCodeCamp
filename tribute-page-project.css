@@ -1,0 +1,52 @@
+body {
+    font-family: calibri;
+  }
+  main {
+    width: 100%;
+    background-color: #ededed;
+    padding: 1.25rem 0.75rem;
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  
+  }
+  #img-div {
+    font-size: 12px;
+    background-color: white;
+    padding: 1.5rem;
+  }
+  #img-caption {
+    margin-top: 0.5rem;
+  }
+  
+  #timeline {
+    font-size: 16px;
+    max-width: 50%;
+    
+    position: center;
+  }
+  
+  li {
+    margin: 20px 0;
+    text-align: left;
+    
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  #footer {
+    font-weight: bold;
+  }
